@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readme Styler</title>
+</head>
+
+<body>
+    <h1>Readme Styler</h1>
+
+    <div>
+
+        <div class="toolbar">
+            <button id="bold">Bold</button>
+            <button id="italic">Italic</button>
+            <button id="heading">Heading</button>
+            <button id="list">List</button>
+            <button id="link">Link</button>
+            <button id="create">Create</button>
+            <button id="copy">Copy Output</button>
+        </div>
+
+        <label for="editor">Editor</label>
+        <br>
+        <div id="editor" contenteditable="true">Type here...</div>
+
+
+        <label for="output">Output (Markdown)</label>
+        <br>
+        <textarea id="output" rows="10" cols="100" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
